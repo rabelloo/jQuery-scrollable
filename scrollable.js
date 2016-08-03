@@ -1,13 +1,12 @@
-/*! scrollable.js
- * ================
- * Scrollable
- * A tidy scrollable design pattern with shadows
- * Works well with slimScroll.js
- *
- * @Author  André Luiz Rabêllo
- * @version 1.0
- */
+/*
+    A tidy scrollable design pattern with shadows
+    Works well with slimScroll.js
+    
+    Author:  AndrÃ© Luiz RabÃªllo
+    Version: 1.0.0
+*/
 
+;
 // Make sure jQuery has been loaded before scrollable.js
 if (typeof jQuery === "undefined") {
     throw new Error("scrollable.js requires jQuery");
