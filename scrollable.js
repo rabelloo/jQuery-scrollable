@@ -85,39 +85,6 @@ if (typeof jQuery === "undefined") {
                 });
         });
 
-        // Append styles
-        var $body = $('body');
-        if (!$body.find('#scrollable-styles').length)
-            $body
-                .append('<style id="scrollable-styles">'
-                            + '.scrollable-wrapper {'
-                                + 'position: relative;'
-                            + '}'
-                            + '.scrollable-wrapper .scrollable {'
-                                + 'overflow-x: hidden;'
-                                + 'overflow-y: auto;'
-                                + 'border: none;'
-                                + 'margin: 0;'
-                            + '}'
-                            + '.scrollable-wrapper .shadow {'
-                                + 'content: "";'
-                                + 'height: 5px;'
-                                + 'left: 0;'
-                                + 'right: 0;'
-                                + 'opacity: 0;'
-                                + 'position: absolute;'
-                                + 'transition: opacity 0.3s;'
-                            + '}'
-                            + '.scrollable-wrapper .shadow.top {'
-                                + 'background: radial-gradient(at top, rgba(0, 0, 0, 0.2), transparent);'
-                                + 'top: 0;'
-                            + '}'
-                            + '.scrollable-wrapper .shadow.bottom {'
-                                + 'background: radial-gradient(at bottom, rgba(0, 0, 0, 0.2), transparent);'
-                                + 'bottom: 0;'
-                        + '}'
-                    + '</style>');
-
         // Return jQuery object
         return this;
     };
