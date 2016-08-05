@@ -21,5 +21,4 @@ If `height` is a falsey value, it will be ignored and the element's `max-height`
 
 Default value is `inherit`.
 
-
-**Recommended use with slimScroll.js for very clean scroll bars**
+<br>**Recommended use with slimScroll.js for very clean scroll bars**
